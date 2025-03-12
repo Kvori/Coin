@@ -114,7 +114,6 @@ export function loginFormCreate(container) {
 
         if (loginInputsContainer.querySelectorAll('.invalid').length > 0) return;
 
-        setChildren(login, loaderCreate());
         login.classList.add('login-load');
         logIn(loginStr, password).then(res => {
             if (res.name) return

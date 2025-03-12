@@ -175,10 +175,6 @@ input::-webkit-inner-spin-button {
     border-radius: 50px;
 }
 
-.login-load {
-    padding: 0;
-}
-
 .login-title {
     margin-bottom: 35px;
 }
