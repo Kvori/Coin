@@ -1,4 +1,4 @@
-# The project is implemented using the ```JavaScript``` and the ```Webpack``` compiler.
+# The project is implemented using the ```JavaScript```, bundler ```Webpack``` and e2e test with ```Cypress``` framework.
 
 ## Description
 
@@ -29,3 +29,9 @@ To run in development mode, you must enter the command ```npm run dev```.
 For product assembly, you need to enter the command ```npm run build```. The assembled project will be located in the repository in the folder dist.
 
 Then, using the live server, or install the serve extension using the command ```npm install --global serve```, then write the command ```serve -s .\frontend\dist\```
+
+## Testing with ```Cypress```
+
+This project also contains e2e tests implemented using the ```Cypress``` framework.
+
+To run tests, you need to run the server application, as well as the application in development mode. Then you need to start cypress using the command ```npx cypress open``` > select e2e tests > any browser > and select a test ```bank```.
